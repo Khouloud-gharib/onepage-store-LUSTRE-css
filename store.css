@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+#body {
+    background-color:#FFF2D7;
+}
+
+.boxleft svg{
+    width:15px;
+
+}
+.boxleft{
+    display: flex;
+    width:435px;
+justify-content: space-around;}
+.boxleft h5 {
+    font-family:"Playfair Display", serif
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    justify-content:space-between;
+    list-style: none;
+    padding:0 110px;
+    width:64%;
+
+}
+
+.boxright a {
+    font-style: oblique;
+    font-family:"Playfair Display", serif; 
+    font-size: 15px;
+    
+    color:black
+    
+}
+.boxright svg {
+    width: 20px;
+}
+.boxright{
+    display:flex;
+    width:435px;
+justify-content:space-around;
+}
+
+
+#nav1 a{
+    text-decoration: none ;
+}
+
+#banner1{
+    width:100%;
+    height: 602.9px; 
+}
+
+.banner h2 {position:absolute; top: 313px;
+    left:474px;
+    letter-spacing: 6px; word-spacing:28px ; text-align:center;
+    color:white
+}
+
+#b-discover{ background-color: #cba87c;
+    position:absolute;top: 414px;left: 707px;
+    padding-top: 5px;padding-bottom: 5px;
+    width:158px
+}
+
+
+
+#brand-name{ margin-top: 14px;
+    display:flex ;
+    justify-content:center;
+    letter-spacing: 2cm;
+font-size:52px
+
+}
+
+.h1{
+    width:25%;
+    border: 2px solid black;
+    margin-top: 50px;
+    
+}
+
+.nav2{
+    display:flex;
+    justify-content:center ;
+}
+.nav2 ul li a {
+    text-decoration: none;
+    font-family:"Playfair Display", serif;
+    color:#76755b;
+}
+.ligne  {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.ligne h3{
+    
+top:20px;
+font-size: 47px;
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;}
+
+
+.ligne img {
+    width: 167px;
+}
+
+
+
+
+.bestinsales-cards {
+    width: 412px; /* Adjust the width of the card */
+    height:571px;
+    background-color: #FFF2D7;
+    border: 1px solid #f9f6f6; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+    text-align: center; /* Center the text */
+  }
+
+  .card1img{
+    width: 100%; /* Full width image */
+    height: 408px; /* Fixed height for image */
+    object-fit: cover; /* Crop the image to fit */
+  }
+
+  .card-body {
+    padding: 15px; /* Padding inside the card */
+  }
+
+  .card-title {
+    font-size: 18px; /* Title font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below title */
+  }
+
+
+
+.card-text {
+    font-size: 14px; /* Paragraph font size */
+    color: #070707; /* Grayish color for text */
+  }
+
+.mainpagecards{ display:flex
+    ; justify-content: center;
+  }
+
+#card1, #card2, #card3 { 
+    display: inline-block;
+    vertical-align: top; /* Align the top of the cards */
+    margin: 10px; /* Optional: Add space between the cards */
+   
+  }
+#bestinsales-btn{
+    display:flex; justify-content: center;
+    background-color: #cba87c;
+    padding-top: 5px;padding-bottom: 5px;
+    width:158px
+}
+.btnbest{
+    display:flex;justify-content: center;
+}
+
+.essentials-card{ display:flex;
+    flex-direction: row;
+    justify-self: center;
+background-color:#cba87c;
+width:fit-content
+}
+
+.img-essentials { 
+    display:flex;
+    flex: 2; /* Take up 2/3 of the card */
+    }
+.img-essentials img { 
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; /* Ensure the image covers the box without stretching */
+}
+
+#essentials-pic{
+    width:800px
+}
+.text-essentials{
+    display:flex; justify-content: center; align-items:center;
+    flex-direction:column;
+    padding-right: 30px;padding-left:30px
+    }
+
+    #btn-essentials {
+        padding: 15px 30px;
+        background-color: #FFF2D7;
+        color: #76755b;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .ethics-section{
+        display:flex;flex-direction:row
+    ; justify-content: center;
+    justify-content: space-around;
+    }
+
+    .ethics-section img{
+        width:80px;
+        display:flex; justify-self: center;
+    }
+    .ethics-section ,p,h2{
+        text-align: center;
+    }
+    .footer h2{
+        font-size: 37px;
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal; text-align: center;
+    }
+    .footer1 ,p{
+        text-align: center;
+        font-size:15px;
+        
+    }
+    .footer{
+        display :flex; flex-direction: row;
+        justify-content: center;
+        background-color: #f5e0b6;
+    }
+  
